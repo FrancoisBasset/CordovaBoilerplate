@@ -1,0 +1,40 @@
+{
+	"name": "tux",
+	"displayName": "Tux",
+	"version": "0.0.1",
+	"description": "A sample Apache Cordova application that responds to the deviceready event.",
+	"main": "index.js",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+		"clean": "rm -rf node_modules package-lock.json platforms www"
+	},
+	"keywords": [
+		"ecosystem:cordova"
+	],
+	"author": "FrancoisBasset",
+	"license": "MIT",
+	"dependencies": {
+		"pinia": "^2.0.32",
+		"vue": "^3.2.47",
+		"vue-router": "^4.1.6"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^4.0.0",
+		"cordova-android": "^10.1.2",
+		"cordova-browser": "^6.0.0",
+		"cordova-electron": "^3.1.0",
+		"eslint": "^8.34.0",
+		"eslint-plugin-vue": "^9.9.0",
+		"vite": "^4.1.4"
+	},
+	"cordova": {
+		"platforms": [
+			"browser",
+			"android",
+			"electron"
+		]
+	}
+}
