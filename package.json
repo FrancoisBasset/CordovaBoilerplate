@@ -1,6 +1,6 @@
 {
-	"name": "tux",
-	"displayName": "Tux",
+	"name": "cordovatest",
+	"displayName": "CordovaTest",
 	"version": "0.0.1",
 	"description": "A sample Apache Cordova application that responds to the deviceready event.",
 	"main": "index.js",
