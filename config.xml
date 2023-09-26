@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="francoisbasset.cordovatest" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>CordovaTest</name>
-    <description>CordovaTest</description>
+<widget id="francoisbasset.cordovaboilerplate" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Cordova Boilerplate</name>
+    <description>Cordova Boilerplate</description>
     <author href="https://github.com/FrancoisBasset">François Basset</author>
     <content src="/" />
     <allow-intent href="http://*/*" />
